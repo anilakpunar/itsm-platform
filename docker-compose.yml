@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  ticket-service:
+    build: ./ticket-service
+    ports:
+      - "8000:8000"
+    restart: always

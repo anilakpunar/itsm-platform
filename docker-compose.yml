@@ -5,3 +5,8 @@ services:
     ports:
       - "8000:8000"
     restart: always
+  user-service:
+    build: ./user-service
+    ports:
+      - "8001:8001"
+    restart: always
